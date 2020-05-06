@@ -18,7 +18,7 @@ def ParticularRecent(amount,community):
 	fg.language('en')
 	fg.description('printing the top 25 recent post for a particular community!')
 
-	for post in jsonDict: # basically since the json was converted into a dictionary a loop to add entries based off the dictionary keys and info
+	for post in jsonDict: # basically since the json was converted into a dictionary a loop to add entries based off the dictionary keys and info https://realpython.com/iterate-through-dictionary-python/
 	
 		fe = fg.add_entry()
 		fe.title(post['title'])
@@ -42,7 +42,7 @@ def any(amount):
 	fg.language('en')
 	fg.description('printing the top 25 recent post for any community!')
 
-	for post in jsonDict1: # basically since the json was converted into a dictionary a loop to add entries based off the dictionary keys and info
+	for post in jsonDict1: # basically since the json was converted into a dictionary a loop to add entries based off the dictionary keys and info https://realpython.com/iterate-through-dictionary-python/
 		fe = fg.add_entry()
 		fe.title(post['title'])
 		fe.author( {'name':post['username'],'email':'john@example.de'}) #didnt have emails in the script to test so just used the random email they provided on the requests documentation examples https://feedgen.kiesow.be/
