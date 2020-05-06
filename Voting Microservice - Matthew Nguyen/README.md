@@ -14,9 +14,18 @@ pip3 install Flask-API
 pip3 install --user Flask-and-Redis
 
 
-run with:
+
+Run with:
 
 flask run
+
+To clear the db, run:
+
+redis-cli
+
+flushdb
+
+
 
 Endpoints: 
 
