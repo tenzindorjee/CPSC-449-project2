@@ -52,11 +52,15 @@ def post_filter():
 	else:
 		return "Post(s) not found", status.HTTP_404_NOT_FOUND
 
-# List n top-scoring posts to any community
+# List n top-scoring post IDs
 # Sample curl request: curl -X GET http://localhost:5000/top/1
 @app.route('/top/<int:n>', methods=['GET'])
 def return_top_n(n):
-        return r.sort("allposts", start=0, num=n, by="*->score", desc=True), status.HTTP_200_OK\
+	postIDs=[]
+	sorted_top_posts = r.sort("allposts", start=0, num=n, by="*->score", desc=True)
+	for x in range(n):
+		postIDs.append(sorted_top_posts[x][4:])
+	return postIDs, status.HTTP_200_OK
 
 # Report the number of upvotes and downvotes for a post using post id
 # Sample curl request: curl -X GET http://localhost:5000/total/1
