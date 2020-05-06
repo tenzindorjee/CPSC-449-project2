@@ -30,9 +30,10 @@ to run the bff.py
 then use the following paths in your browser
 
 ```
-htttp://127.0.0.1:5100/any/amount you want
+htttp://127.0.0.1:5100/any/(amount you want) //any community based off the recent 25 
 
 or 
-http://127.0.0.1:5100/community you want/amount you want
+
+http://127.0.0.1:5100/(community you want)/(amount you want) // specific community based off the recent 25
 
 ```
