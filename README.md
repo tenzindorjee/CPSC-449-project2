@@ -39,4 +39,4 @@ http://127.0.0.1:5100/(community you want)/(amount you want) // specific communi
 ```
 
 ## Incomplete 
-We were unable to connect the voting and posting microservices to complete bullets 3-5 for Dev 3's objectives.
+ - We were unable to connect the voting and posting microservices to complete bullets 3-5 for Dev 3's objectives.
