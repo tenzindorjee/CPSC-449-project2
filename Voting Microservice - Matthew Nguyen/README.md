@@ -1,7 +1,7 @@
 # 449Project2
 Voting microservice implemented using flaskapi and Redis by Matthew Nguyen
 
-Run these beforehand:
+<b>Run these beforehand</b>:
 
 sudo apt update
 
@@ -15,11 +15,11 @@ pip3 install --user Flask-and-Redis
 
 
 
-Run with:
+<b>Run with</b>:
 
 flask run
 
-To clear the db, run:
+<b>To clear the db, run</b>:
 
 redis-cli
 
@@ -27,7 +27,7 @@ flushdb
 
 
 
-Endpoints: 
+<b>Endpoints</b>: 
 
 http://localhost:5000/ - home page. View all posts
 
