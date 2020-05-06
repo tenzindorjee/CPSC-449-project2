@@ -14,6 +14,7 @@ $ pip3 install --user requests
 $ sudo apt update
 $ sudo apt install --yes python3-lxml
 $ pip3 install --user feedgen
+pip3 install Flask
 
 ```
 
