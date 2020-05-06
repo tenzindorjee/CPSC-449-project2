@@ -27,7 +27,7 @@ flask run
 ```
 to run the bff.py
 
-then use 
+#then use the path in your browser
 
 ```
 htttp://127.0.0.1:5100/any/amount you want
